@@ -102,14 +102,7 @@ text
 
 ## **File Structure**
 
-Hybrid-Multi-Search-RAG/
-├── script.py # Main Python script
-├── requirements.txt # List of dependencies
-├── README.md # Project documentation
-├── .env # Environment variables (not included in GitHub)
-├── example_document.pdf # Replace with your target PDF file
-
-text
+<pre> ``` Hybrid-Multi-Search-RAG/ ├── script.py # Main Python script ├── requirements.txt # List of dependencies ├── README.md # Project documentation ├── .env # Environment variables (not included in GitHub) ├── example_document.pdf # Replace with your target PDF file ``` </pre>
 
 ---
 
