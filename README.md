@@ -1,8 +1,7 @@
 # Multi-Retriever-RAG-System
 A Hybrid Multi-Search RAG System that combines BM25, similarity search, and retrieval-augmented generation (RAG) to efficiently answer queries using PDF document content.
 
-markdown
-Copy Code
+
 # **Hybrid Multi-Search RAG System**
 
 The **Hybrid Multi-Search RAG System** is an intelligent document query system that uses **retrieval-augmented generation (RAG)**. It combines **BM25 keyword-based search**, **FAISS-based semantic similarity search**, and a **CXAI-powered LLM** to provide accurate and context-aware answers to user queries. This system processes PDF documents, splits them into retrievable chunks, and provides concise responses using a combination of retrieval strategies and generative models.
@@ -54,7 +53,6 @@ Install all dependencies using:
 
 
 bash
-Copy Code
 pip install -r requirements.txt
 
 
@@ -66,7 +64,7 @@ Clone the repository to your local machine:
 
 
 bash
-Copy Code
+
 git clone <repository_url>
 cd <repository_folder>
 
@@ -76,14 +74,14 @@ Install the required Python libraries:
 
 
 bash
-Copy Code
+
 pip install -r requirements.txt
 
 3. Configure Environment Variables
 
 Create a .env file in the project directory to store your CXAI Playground API token:
 plaintext
-Copy Code
+
 CXAI_PLAYGROUND_ACCESS_TOKEN=<your_api_token>
 
 4. Prepare the PDF Document
@@ -98,14 +96,14 @@ Run the script to start the interactive question-answering system:
 
 
 bash
-Copy Code
+
 python script.py
 
 You can then ask questions about the content of the PDF document. For example:
 
 
 plaintext
-Copy Code
+
 Enter your question: How does QoS work in ASR9K?
 
 Exit the Application:
@@ -119,7 +117,7 @@ The repository includes the following files:
 
 
 plaintext
-Copy Code
+
 Hybrid-Multi-Search-RAG/
 ├── script.py                  # Main Python script
 ├── requirements.txt           # List of dependencies
@@ -133,13 +131,13 @@ Example Usage
 Input:
 
 plaintext
-Copy Code
+
 Enter your question: How to configure BGP?
 
 Output:
 
 plaintext
-Copy Code
+
 Answer: To configure BGP, follow these steps: ...
 
 The system retrieves the most relevant content from the PDF, combines it into context, and uses the CXAI-powered LLM to generate a concise and accurate answer.
@@ -188,12 +186,8 @@ Additional Notes
 Ensure your .env file contains a valid API token for the CXAI Playground.
 Ensure the target PDF file is accessible at the path specified in the script.
 The project has been tested with:
-bash
-Copy Code
-\(sanjay\) snanda2@SNANDA2-M-H6LC Cisco_API % python --version
-Python 3.11.12
 
-Copy Code
+
 
 ---
 
