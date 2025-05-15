@@ -1,6 +1,5 @@
 
-markdown
-Copy Code
+
 # **Hybrid Multi-Search RAG System**
 
 The **Hybrid Multi-Search RAG System** is an intelligent document query system that uses **retrieval-augmented generation (RAG)**. It combines **BM25 keyword-based search**, **FAISS-based semantic similarity search**, and a **CXAI-powered LLM** to provide accurate and context-aware answers to user queries. This system processes PDF documents, splits them into retrievable chunks, and provides concise responses using a combination of retrieval strategies and generative models.
@@ -111,6 +110,7 @@ Exit the Application:
 Type exit to close the application.
 
 
+
 File Structure
 
 The repository includes the following files:
@@ -185,14 +185,3 @@ Additional Notes
 
 Ensure your .env file contains a valid API token for the CXAI Playground.
 Ensure the target PDF file is accessible at the path specified in the script.
-
-
-
----
-
-### How to Use:
-
-1. Save this content as **`README.md`** in your project directory.
-2. Save the refined dependencies provided earlier in a file named **`requirements.txt`**.
-3. Ensure all files \(e.g., script, `.env`, and PDF\) are in place before running the script.
-
